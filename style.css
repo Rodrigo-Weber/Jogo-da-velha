@@ -51,3 +51,16 @@ h2, h3{
     text-align: center;
     background-color: cadetblue;
 }
+
+/* Media query for mobile devices */
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 100%; /* Adjusting width for smaller screens */
+        padding: 10px; /* Adjusting padding for smaller screens */
+    }
+    .celula {
+        width: 50px; /* Adjusting cell width for smaller screens */
+        height: 50px; /* Adjusting cell height for smaller screens */
+        font-size: 20pt; /* Adjusting font size for smaller screens */
+    }
+}
